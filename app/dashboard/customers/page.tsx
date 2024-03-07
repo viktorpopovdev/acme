@@ -1,7 +1,4 @@
+// import { CustomersTableType } from '@/app/lib/definitions';
 export default function Page() {
-  return (
-    <div>
-      <h1>Customers</h1>
-    </div>
-  );
+  return <div>{/* <CustomersTableType /> */}</div>;
 }
