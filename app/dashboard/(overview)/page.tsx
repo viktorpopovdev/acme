@@ -18,6 +18,7 @@ export default async function Page() {
     numberOfInvoices,
     numberOfCustomers,
   } = await fetchCardData();
+  console.log(totalPaidInvoices); //totalPaidInvoices
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
